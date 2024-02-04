@@ -17,6 +17,11 @@ body {
   font-family: 'Montserrat', 'sans-serif';
 }
 
+#modal-root {
+  display: grid;
+  justify-items: center;
+}
+
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none;

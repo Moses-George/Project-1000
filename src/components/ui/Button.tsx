@@ -7,15 +7,19 @@ const variants: IBtnVariants = {
 };
 
 
-const Button = ({ variant, className, text, onClick }: IBtnProps) => {
+const Button = ({ variant, className, text, showIcon, href, onClick }: IBtnProps) => {
 
     return (
-        <button onClick={onClick} className={` flex items-center justify-center gap-3 rounded-md shadow-xl w-48 h-12 lg:w-48 lg:h-[3.5rem]  text-lg font-medium border-2 border-blue-500  ${className} ${variants[variant as keyof typeof variants]}`}>
-            <div className=" rouneded-full animate-bounce">
-                <img className="rotate-[270deg]" src="images/arrow.svg" />
-            </div>
-            <span>{text}</span>
+        // <a>
+        <button onClick={onClick} className={` rounded-md shadow-xl w-fit h-12 lg:w px-4 lg:h-[3.5rem]  text-lg font-medium border-2 border-blue-500  ${className} ${variants[variant as keyof typeof variants]}`}>
+            <a href={href} className="flex items-center justify-center gap-3"  rel="noreferrer">
+                {showIcon && <div className=" rouneded-full animate-bounce">
+                    <img className="rotate-[270deg]" src="images/arrow.svg" />
+                </div>}
+                <span>{text}</span>
+            </a>
         </button>
+        // </a>
     )
 }
 

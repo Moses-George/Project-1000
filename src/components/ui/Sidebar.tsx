@@ -14,9 +14,11 @@ const SidebarOverlay = ({ onClose }: ISidebarProps) => {
         <motion.div
             {...framerSidebarPanel}
             className="fixed top-0 right-0 bottom-0 bg-[#010113] z-[9999] w-[18rem] p-6 lg:hidden h-screen space-y-16">
-            <div className="flex justify-between ">
-                <img className="w-8 h-8" src="/images/angle.svg" onClick={onClose} />
-                <img className="w-32" src="/images/logo.png" />
+            <div className="flex justify-between items-center">
+                <div className="bg-blue-800 rounded-full p-2 w-fit shadow-xl">
+                    <img className="w-6 h-6" src="/images/angle.svg" onClick={onClose} />
+                </div>
+                <img className="h-20 w-36" src="/images/logo.svg" alt="logo" />
             </div>
             <ul className="flex flex-col gap-6 text-white font-medium">
                 {navLinks.map((link, index) =>
@@ -26,7 +28,7 @@ const SidebarOverlay = ({ onClose }: ISidebarProps) => {
                     </li>)}
             </ul>
             <div className="">
-                <Button onClick={onClose} variant="solid" text="Buy Tickets" />
+                <Button showIcon variant="solid" text="Buy Tickets" href="#ticket" />
             </div>
         </motion.div>
     )

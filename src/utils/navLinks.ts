@@ -18,8 +18,8 @@ import { INav } from "./interfaces";
     },
     {
         id: "l4",
-        name: "Partnerships",
-        link: "#partnerships"
+        name: "Facilitators",
+        link: "#facilitators"
     },
     {
         id: "l5",

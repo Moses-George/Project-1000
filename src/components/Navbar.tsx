@@ -11,10 +11,10 @@ const Navbar: FC = () => {
     return (
         <>
             {isOpen && <Sidebar onClose={()=> setIsOpen(false)} />}
-            <header className="w-full py-8 px-4 lg:px-20">
-                <nav className="w-full flex justify-between gap-12 items-center text-white">
-                    <div className="">
-                        <img className="w-40" src="/images/logo.png" alt="logo" />
+            <header className="w-full px-4 lg:px-12 shadow-sm fixed top-0 backdrop-blur-md transition ease-out delay-100 duration-500 z-[100]">
+                <nav id="navbar" className="w-full flex justify-between gap-12 items-center text-white">
+                    <div className="-ml-14">
+                        <img className="h-24 w-60" src="/images/logo.svg" alt="logo" />
                     </div>
                     <ul className="text-white font-medium hidden lg:flex justify-between justify-self-start gap-8">
                         {navLinks.map(link =>
@@ -24,7 +24,7 @@ const Navbar: FC = () => {
                     </ul>
                     <div className="">
                         <img className="lg:hidden w-8 h-8" src="/images/hambuger.svg" alt="" onClick={()=> setIsOpen(true)} />
-                        <Button className="hidden lg:flex" variant="solid" text="Buy Tickets" />
+                        <Button showIcon className="hidden lg:block" variant="solid" text="Buy Tickets" href="#ticket" />
                     </div>
                 </nav>
             </header>

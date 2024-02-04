@@ -17,33 +17,34 @@ const HeroSection: FC = () => {
     }, []);
 
     return (
-        <section className="h-[50rem] lg:h-[52rem] relative pt-10 px-4 lg:px-20">
+        <section id="hero" className="h-[50rem] lg:h-[49rem] relative pt-10 px-4 lg:px-12 mt-28 lg:mt-36">
             <Particles
                 id="tsparticles"
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={optionConfig}
                 className="absolute top-0 left-0 bottom-0 right-0 m-0 p-0 z-[-1]" />
-            <div className="space-y-4">
+            <div className="space-y-3">
                 <div className="text-white space-y-2">
-                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">1 Stage</div>
-                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12 ">12 High Profile Speakers</div>
-                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">1000 participants</div>
+                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">2 Stage</div>
+                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">4 Courses</div>
+                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12 ">12 High Profile Facilitators</div>
+                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">2000 participants</div>
                 </div>
                 <div className="-ml-10">
-                    <img className="w-[35rem] -mt-8" src="/images/transitions-undressing-the-next-365-better-africa-foundation.png" />
+                    <img className="w-[35rem] " src="/images/unleash.png" />
                 </div>
                 <p className="text-white max-w-lg text-lg">
-                    Join over 1,000 young persons in Calabar and get the roadmap into the future of life and global business domination
+                    Empowering Students and Youth with relevant Economic Skills for the Marketplace
                 </p>
-                <div className="text-2xl">
-                    <span className="text-blue-500">NOV 18 2023 /
-                    </span> <span className="text-white">THE BIG TENT, CALABAR / </span>
-                    <span className="text-gray-400 font-medium">8AM</span>
+                <div className="text-2xl flex flex-col">
+                    <span className="text-blue-500">23rd and 24th Feb 2024 /
+                    </span> <span className="text-white">University of Benin / </span>
+                    <span className="text-gray-300 font-medium">9AM Respectively</span>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-6 w-fit">
-                    <Button  variant="solid" className="" text="Buy Tickets" />
-                    <Button variant="outlined" className="" text="Buy Tickets" />
+                    <Button showIcon  variant="solid" className="" text="Buy Tickets" href="#ticket" />
+                    <Button showIcon={false} variant="outlined" className="" text="Ticket Categories" href="#benefits" />
                 </div>
             </div>
 

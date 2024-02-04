@@ -48,3 +48,10 @@ export const framerVerticalSlide = {
     transition: { delay: 0.3, duration: 1, ease: "easeIn" },
     initial: { y: 100, opacity: 0 }
 }; 
+
+export const framerSlideDown = {
+    initial: { y: -100 },
+    animate: { y: 0 },
+    exit: { x: -100 },
+    transition: { duration: 0.3 }
+};

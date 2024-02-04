@@ -15,14 +15,15 @@ export interface IBtnProps {
     variant: string;
     className?: string;
     text: string;
-    onClick?: () => void
+    showIcon: boolean;
+    href?: string;
+    onClick?: () => void;
 } 
 
-export interface ISPeaker {
+export interface IGuest {
     id?: string;
     name: string;
     image_src: string;
-    location: string;
 }
 
 export interface InputFieldProps {
