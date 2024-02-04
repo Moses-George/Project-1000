@@ -12,8 +12,10 @@ const Sponsorship = () => {
             </div>
             <div className="text-xl text-white font-medium border-gray-200 border-2 lg:p-4 px-2 py-4 max-w-md mx-auto">
                 <p className="">Call these numbers:</p>
-                <a href="tel:+2348100072927" className="">+2348100072927</a>,
-                <a href="tel:+2349090555065" className="ml-2">+2349090555065</a>
+                <div className="flex flex-col mt-2 gap-1">
+                    <a href="tel:+2348100072927" className="underline">+2348100072927</a>
+                    <a href="tel:+2349090555065" className="underline">+2349090555065</a>
+                </div>
             </div>
         </section>
     )

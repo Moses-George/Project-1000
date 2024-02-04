@@ -5,7 +5,7 @@ const GuestCard = ({ name, image_src }: IGuest) => {
     return (
         <div className="shadow-3xl rounded-3xl rounded-br-3xl bg-blue-200 hover:opacity-75">
             <div className="bg-blue-900 w-full h-full lg:-mt-2.5 lg:-ml-2.5 rounded-3xl shadow-xl ">
-                <img className="w-full lg:h-72 h-96 rounded-t-3xl" src={image_src} alt={name} />
+                <img className="w-full lg:h-72 h-[24rem] rounded-t-3xl" src={image_src} alt={name} />
                 {/* <div className="lg:w-[13rem] lg:h-[13rem] w-60 h-60 bg-blue-200 rounded-full -mt-28 mr-2 lg:ml-6 p-2">
                     <img className="lg:w-[17rem] lg:h-[12rem] w-60 h-56 rounded-full" src={image_src} alt={name} />
                 </div> */}
