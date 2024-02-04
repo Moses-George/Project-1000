@@ -26,7 +26,7 @@ const HeroSection: FC = () => {
                 className="absolute top-0 left-0 bottom-0 right-0 m-0 p-0 z-[-1]" />
             <div className="space-y-3">
                 <div className="text-white space-y-2">
-                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">2 Stage</div>
+                    <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">2 Stages</div>
                     <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">4 Courses</div>
                     <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12 ">12 High Profile Facilitators</div>
                     <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">2000 participants</div>

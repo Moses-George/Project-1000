@@ -14,7 +14,7 @@ const Navbar: FC = () => {
             <header className="w-full px-4 lg:px-12 shadow-sm fixed top-0 backdrop-blur-md transition ease-out delay-100 duration-500 z-[100]">
                 <nav id="navbar" className="w-full flex justify-between gap-12 items-center text-white">
                     <div className="-ml-14">
-                        <img className="h-24 w-60" src="/images/logo.svg" alt="logo" />
+                        <img className="lg:h-24 lg:w-48 h-20 w-28 ml-6 lg:ml-0" src="/images/logo.svg" alt="logo" />
                     </div>
                     <ul className="text-white font-medium hidden lg:flex justify-between justify-self-start gap-8">
                         {navLinks.map(link =>

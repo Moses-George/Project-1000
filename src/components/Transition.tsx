@@ -12,9 +12,7 @@ const Transition = () => {
                     {...framerVerticalSlide}
                     className="">
                     <div className="space-y-2 lg:space-y-3 leading-tight mb-8">
-                        <h1 className="lg:text-4xl text-3xl text-white"><span className="text-blue-500">PTOJECT 1000</span> which has imapacted over 1500 students and Youths in the last two editions is here again!</h1>
-                        {/* <h1 className="text-white text-4xl ">ELEVATE YOUR LIFE AND BUSINESS</h1>
-                        <h1 className="text-gray-300 text-4xl ">AT Project 1000 2024</h1> */}
+                        <h1 className="lg:text-4xl text-3xl text-white"><span className="text-blue-500">PTOJECT 1000</span> which has impacted over 1500 students and Youths in the last two editions is here again!</h1>
                     </div>
                     <p className="text-white lg:text-2xl text-xl">As a Youth or Undergraduate have you been looking for opportunies to:</p>
                     <div className="text-gray-300 space-y-2 text-lg py-6">
@@ -23,15 +21,10 @@ const Transition = () => {
                         <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>Start your personal development journey on the right foot with access to quality resources and trainings ?</p>
                         <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>Build the right connections with like minds and have a healthy network of growth oriented individuals while on campus ?</p>
                         <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>Learn from mentors and industry experts who have a track record of value in the marketplace ? </p>
-                        {/* <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>You’ve probably talked to friends about your problems, but they couldn’t help.</p>
-                        <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>Or you’ve read business books that didn’t give you the answers.</p>
-                        <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>Maybe you’ve watched motivational YouTube videos that didn’t really change things.</p>
-                        <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>Now, you’re tired, stuck, and frustrated.</p>
-                        <p className="flex items-center gap-2"><span className="text-white text-6xl">•</span>Tired of hoping without reward.</p> */}
                     </div>
-                    <p className="text-white text-2xl">You’re not alone, and you don’t have to struggle like this!</p>
-                    <h1 className="text-white text-2xl ">Elevate your Life and Business</h1>
-                    <h1 className="text-gray-300 text-2xl ">AT Project 1000 2024</h1>
+                    <p className="text-white text-2xl">You’re not alone, The Project 1000 team has created a platform where you can elevate your game as a youth or an undergraduate in this years edition of PROJECT 1000</p>
+                    {/* <h1 className="text-white text-2xl ">Elevate your Life and Business</h1>
+                    <h1 className="text-gray-300 text-2xl ">AT Project 1000 2024</h1> */}
                 </motion.div>
                 <img className="self-center" src="/images/transition-1.png" alt="" />
             </div>

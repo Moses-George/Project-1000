@@ -18,7 +18,7 @@ const SidebarOverlay = ({ onClose }: ISidebarProps) => {
                 <div className="bg-blue-800 rounded-full p-2 w-fit shadow-xl">
                     <img className="w-6 h-6" src="/images/angle.svg" onClick={onClose} />
                 </div>
-                <img className="h-20 w-36" src="/images/logo.svg" alt="logo" />
+                <img className="h-20 w-28" src="/images/logo.svg" alt="logo" />
             </div>
             <ul className="flex flex-col gap-6 text-white font-medium">
                 {navLinks.map((link, index) =>

@@ -12,8 +12,12 @@ const TicketDetails = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 gap-10">
                 <motion.div
                     {...framerVerticalSlide}>
-                    <h2 className="text-white lg:text-2xl text-xl ">Basic (N1,000)</h2> 
-                    <div className="text-gray-300 space-y-2 text-lg py-6">
+                    <div className="flex items-center gap-3 lg:text-2xl text-xl">
+                        <h2 className="text-blue-400 py-2 px-4 border-2 border-blue-400 w-fit bg-blue-950 rounded-lg">Basic Ticket</h2>
+                        <span className="bg-blue-300 h-12 w-1 rounded-lg"></span>
+                        <span className="text-yellow-600"> #1,000</span>
+                    </div>
+                    <div className="text-gray-300 text-lg py-6">
                         {basicTicketOffers.map(item => <div key={item.id} className="flex items-center gap-2">
                             <span className="text-white text-7xl">•</span>
                             <span className="mt-2">{item.offer}</span>
@@ -24,8 +28,12 @@ const TicketDetails = () => {
                 <motion.div
                     {...framerVerticalSlide}
                     className="">
-                    <h2 className="text-white text-2xl">Standard (N5,000)</h2>
-                    <div className="text-gray-300 space-y-2 text-lg py-6">
+                    <div className="flex items-center gap-3 lg:text-2xl text-xl">
+                        <h2 className="text-blue-400 py-2 px-4 border-2 border-blue-400 w-fit bg-blue-950 rounded-lg">Standard Ticket</h2>
+                        <span className="bg-blue-300 h-12 w-1 rounded-lg"></span>
+                        <span className="text-yellow-600"> #5,000</span>
+                    </div>
+                    <div className="text-gray-300  text-lg py-6">
                         {standardTicketOffers.map(item => <div key={item.id} className="flex items-center gap-2">
                             <span className="text-white text-7xl">•</span>
                             <span className="mt-2">{item.offer}</span>
