@@ -80,7 +80,7 @@ export const sessions = [
     },
     {
         id: "m2",
-        speaker: "Forune Nnamdi",
+        speaker: "Fortune Nnamdi",
         topic: "Sales and Marketing"
     },
     {
@@ -171,32 +171,22 @@ export const ticketFormData = [
 export const faqs = [
     {
         id: "f1",
-        question: "Accordion #1",
-        answer: "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions."
+        question: "Where is the event holding ?",
+        answer: "PROJECT1000 holds in the University of Benin (Twin LT 1&2, Social Sciences)"
     },
     {
         id: "f2",
-        question: "Accordion #1",
-        answer: "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions."
+        question: "Why is the event holding for two days ?",
+        answer: "PROJECT1000 is a two days event because we offer four different training sessions at PROJECT1000 and we have two of those sessions running simultaneously on day one and the other two on day two. "
     },
     {
         id: "f3",
-        question: "Accordion #1",
-        answer: "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions."
+        question: "Is PROJECT1000 for only Undergraduates ?",
+        answer: "No. PROJECT1000 is for every young person out there, we only focus on Undergraduates because the event is situated within he four walls of the University."
     },
     {
         id: "f4",
-        question: "Accordion #1",
-        answer: "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions."
+        question: "Will i be getting a certificate for the event ?",
+        answer: "Yes you will. We have E-copy(softcopy) and Hardcopy certificates for our participants."
     },
-    {
-        id: "f5",
-        question: "Accordion #1",
-        answer: "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions."
-    },
-    {
-        id: "f6",
-        question: "Accordion #1",
-        answer: "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions."
-    }
 ]

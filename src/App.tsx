@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import Partners from './components/Partners';
 import Sponsorship from './components/SponsorShip';
 import Faqs from './components/Faqs';
-// import Convener from './components/Convener';
+import Convener from './components/Convener';
 import TicketDetails from './components/TicketDetails';
 import { chats, faciliators, speakers } from './utils/data';
 // import { useEffect, useState } from 'react';
@@ -49,7 +49,7 @@ function App() {
         <Guests key="speakers" heading='Speakers' href='speakers' data={speakers} />
         <Guests key="chat" heading='Fireside Chat Guests' href='chat' data={chats} />
         <Sessions />
-        {/* <Convener /> */}
+        <Convener />
         <Faqs />
         <TicketPurchase />
         <Partners />
