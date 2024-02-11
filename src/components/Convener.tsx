@@ -14,7 +14,7 @@ const Convener = () => {
                 </div>
                 <div className="p-4 w-80">
                     <h2 className="text-3xl text-white">Ifeanyi Godfrey</h2>
-                    <p className="text-lg text-gray-300">Fonder and Convener of Poject 1000</p>
+                    <p className="text-lg text-gray-300">Founder and Convener of Project 1000</p>
                 </div>
             </div>
         </section>

@@ -17,14 +17,15 @@ const HeroSection: FC = () => {
     }, []);
 
     return (
-        <section id="hero" className="h-[50rem] lg:h-[49rem] relative pt-10 px-4 lg:px-12 mt-28 lg:mt-36">
-            <Particles
+        <section id="hero" className="relative h-[50rem] lg:h-[49rem] relative pt-10 px-4 lg:px-12 mt-20 lg:mt- bg-[url('/images/bg-light.jpg')] bg-cover bg-center bg-no-repeat">
+            {/* <Particles
                 id="tsparticles"
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={optionConfig}
-                className="absolute top-0 left-0 bottom-0 right-0 m-0 p-0 z-[-1]" />
-            <div className="space-y-3">
+                className="absolute top-0 left-0 bottom-0 right-0 m-0 p-0 z-[-1]" /> */}
+                <div className="absolute top-0 h-full backdrop-blur-[2.5px] w-full left-0 z-0"></div>
+            <div className="space-y-3 relative">
                 <div className="text-white space-y-2">
                     <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">2 Stages</div>
                     <div className="border-2 border-gray-300 w-fit py-1.5 pl-2 pr-12">4 Courses</div>
@@ -48,9 +49,9 @@ const HeroSection: FC = () => {
                 </div>
             </div>
 
-            <div className="absolute -top-24 -right-40 z-[-5] h-fit bg-black hidden lg:block">
+            {/* <div className="absolute -top-24 -right-40 z-[-5] h-fit bg-black hidden lg:block">
                 <img src="/images/hero.jpg" alt="" className="h-[70rem w-[58rem" />
-            </div>
+            </div> */}
         </section>
     )
 }

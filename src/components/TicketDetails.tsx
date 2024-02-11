@@ -12,8 +12,8 @@ const TicketDetails = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 gap-10">
                 <motion.div
                     {...framerVerticalSlide}>
-                    <div className="flex items-center space-x-3 lg:text-2xl text-xl">
-                        <a href="#ticket" className="text-blue-400 py-2 px-4 border-2 border-blue-400 w-fit bg-blue-950 rounded-lg">Basic Ticket</a>
+                    <div className="flex items-center space-x-3 ">
+                        <a href="#ticket" className="text-blue-400 text-md lg:text-xl py-2 px-4 border-2 border-blue-400 w-fit bg-blue-950 rounded-lg">Basic Ticket</a>
                         <span className="bg-blue-300 h-12 w-1 rounded-lg"></span>
                         <span className="text-yellow-600 text-3xl"> #1,000</span>
                     </div>
@@ -28,8 +28,8 @@ const TicketDetails = () => {
                 <motion.div
                     {...framerVerticalSlide}
                     className="">
-                    <div className="flex items-center gap-3 lg:text-2xl text-xl">
-                        <a href="#ticket" className="text-blue-400 py-2 px-4 border-2 border-blue-400 w-fit bg-blue-950 rounded-lg">Standard Ticket</a>
+                    <div className="flex items-center gap-3">
+                        <a href="#ticket" className="text-blue-400 text-md lg:text-xl py-2 px-4 border-2 border-blue-400 w-fit bg-blue-950 rounded-lg">Standard Ticket</a>
                         <span className="bg-blue-300 h-12 w-1 rounded-lg"></span>
                         <span className="text-yellow-600 text-3xl"> #5,000</span>
                     </div>
