@@ -1,20 +1,20 @@
-import { FC, useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { optionConfig } from "../utils/particlesConfig";
+// import { FC, useCallback } from "react";
+// import Particles from "react-tsparticles";
+// import { loadFull } from "tsparticles";
+// import { optionConfig } from "../utils/particlesConfig";
 import Button from "./ui/Button";
 
 
 
-const HeroSection: FC = () => { 
+const HeroSection = () => { 
 
-    const particlesInit = useCallback(async (engine: any) => {
-        await loadFull(engine);
-    }, []);
+    // const particlesInit = useCallback(async (engine: any) => {
+    //     await loadFull(engine);
+    // }, []);
 
-    const particlesLoaded = useCallback(async (container: any) => {
-        await console.log(container);
-    }, []);
+    // const particlesLoaded = useCallback(async (container: any) => {
+    //     await console.log(container);
+    // }, []);
 
     return (
         <section id="hero" className="relative h-[50rem] lg:h-[49rem] relative pt-10 px-4 lg:px-12 mt-20 lg:mt- bg-[url('/images/bg-light.jpg')] bg-cover bg-center bg-no-repeat">
